@@ -1,0 +1,78 @@
+body {
+  overflow-x: hidden;
+}
+.behind-div {
+  position: absolute;
+  top: -40%;
+  left: -60%;
+  width: 150%;
+  height: 120%;
+  background: linear-gradient(180deg, #7a3199 0%, #161033 100%);
+  z-index: -5;
+  transform: rotate(-30.57deg);
+}
+.behind-div2 {
+  position: absolute;
+  left: -30%;
+  top: -55%;
+  width: 931px;
+  height: 850px;
+  z-index: -3;
+  background: var(--secondary, #7a3199);
+}
+.triangle {
+  position: absolute;
+  z-index: -3;
+  width: 60%;
+  right: -6%;
+  top: -10%;
+  transform: rotate(2deg);
+}
+.micImg {
+  position: absolute;
+  z-index: -3;
+  right: 0;
+  top: 70%;
+  width: 40%;
+}
+.imageone {
+  border-radius: 10px;
+  background: url("/src/components/everyone-is-smiling.png"),
+    lightgray 50% / cover no-repeat;
+}
+.imagetwo {
+  border-radius: 10px;
+  background: url("/src/components/group-business.png"),
+    lightgray 50% / cover no-repeat;
+}
+.everyoneImg {
+  position: absolute;
+  z-index: -2;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+.groupImg {
+  position: absolute;
+  z-index: -1;
+  padding-top: 10%;
+}
+.dotImg {
+  position: absolute;
+  z-index: -3;
+  padding-top: 7%;
+  padding-left: 8%;
+}
+.dotImgURL {
+  width: 500px;
+  height: 400px;
+}
+.signupPage {
+  height: 700px;
+}
+.aboutPage {
+  height: 500px;
+}
+.radio-input {
+  position: absolute;
+  opacity: 0;
+}
