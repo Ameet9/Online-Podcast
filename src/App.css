@@ -33,6 +33,18 @@ body {
   z-index: -3;
   width: 120%;
 }
+.micSmallImg {
+  position: absolute;
+  z-index: -3;
+  right: 8%;
+  top: 40%;
+}
+.micGroupImg {
+  position: absolute;
+  z-index: -3;
+  right: 10%;
+  top: 60%;
+}
 .micImg {
   position: absolute;
   z-index: -3;

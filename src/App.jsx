@@ -5,6 +5,8 @@ import Signup from './components/Signup'
 import poly from "./assets/Polygon 1.png";
 import About from './components/About';
 import mic from "./assets/pngwing 1.png";
+import groupSvg from "./assets/Group.svg";
+import micVector from "./assets/Vector.svg";
 import Pricing from './components/Pricing';
 import Review from './components/Review';
 import Footer from './components/Footer';
@@ -23,6 +25,20 @@ function App() {
           <img
             className="triangle"
             src={poly}
+            alt="Image 1"
+          />
+        </div>
+        <div>
+          <img
+            className="micSmallImg"
+            src={micVector}
+            alt="Image 1"
+          />
+        </div>
+        <div>
+          <img
+            className="micGroupImg"
+            src={groupSvg}
             alt="Image 1"
           />
         </div>

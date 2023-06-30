@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
     return (
         <>
-            <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4 aboutPage mx-32">
+            <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4 aboutPage mx-32" id='About'>
                 <div className="p-4 ">
                     <div className="grid grid-cols-1 md:grid-cols-2  md:gap-10 gap-6">
                         <div className="col-span-1 ">

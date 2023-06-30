@@ -8,7 +8,7 @@ import star from "../assets/fluent-emoji-flat_star.svg";
 export default function Review() {
     return (
         <>
-            <div className='p-40'>
+            <div className='p-40' id='Reviews'>
                 <div>
                     <h1 className='text-black text-4xl font-inter font-bold'>Review from customers</h1>
                     <p className='text-black text-s font-poppins font-normal'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</p>

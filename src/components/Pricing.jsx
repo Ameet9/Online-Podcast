@@ -20,7 +20,7 @@ export default function Pricing() {
     ];
     return (
         <>
-            <div className='mt-20'>
+            <div className='mt-20' id='Pricing'>
                 <div className='flex items-center justify-center'>
                     <div className="grid grid-cols-1 text-center">
                         <div className="p-4">
