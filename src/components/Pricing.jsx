@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import line from "../assets/Line 2.png";
 
 export default function Pricing() {
     const [selectedOption, setSelectedOption] = useState('monthly');
@@ -29,8 +30,8 @@ export default function Pricing() {
                             <p className='text-s font-poppins font-normal'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
                         </div>
                         <div className="p-4">
-                            <div className="flex items-center space-x-4 justify-center">
-                                <div className={`rounded p-4 w-24 focus:outline-none transition-all duration-500 ${selectedOption === 'monthly' ? 'bg-green-500 ' : 'bg-gray-500'}`}>
+                            <div className="flex items-center space-x-4 justify-center bg-gray-200 p-2 shadow-lg rounded-full w-60 m-auto">
+                                <div className={`rounded-full p-4 w-24 focus:outline-none transition-all duration-500 ${selectedOption === 'monthly' ? 'bg-green-500 ' : 'bg-gray-500'}`}>
                                     <label className="inline-flex items-center">
                                         <input
                                             type="radio"
@@ -43,7 +44,7 @@ export default function Pricing() {
                                         <span className=" text-black text-center text-14 font-poppins font-bold">Monthly</span>
                                     </label>
                                 </div>
-                                <div className={`rounded p-4 w-24 focus:outline-none transition-all duration-500 ${selectedOption === 'yearly' ? 'bg-green-500 ' : 'bg-gray-500'}`}>
+                                <div className={`rounded-full p-4 w-24 focus:outline-none transition-all duration-500 ${selectedOption === 'yearly' ? 'bg-green-500 ' : 'bg-gray-500'}`}>
                                     <label className="inline-flex items-center">
                                         <input
                                             type="radio"
@@ -100,6 +101,23 @@ export default function Pricing() {
                                 </div>)}
                         </div>
                     </div>
+                </div>
+                <div>
+                    <img
+                        className="lineImg"
+                        src={line}
+                        alt="Image 1"
+                    />
+                    <img
+                        className="lineImg2"
+                        src={line}
+                        alt="Image 1"
+                    />
+                    <img
+                        className="lineImg3"
+                        src={line}
+                        alt="Image 1"
+                    />
                 </div>
             </div>
         </>

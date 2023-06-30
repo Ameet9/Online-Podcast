@@ -33,6 +33,9 @@ function App() {
             alt="Image 1"
           />
         </div>
+        <div className='podcastText'>
+          <h1 className='text-gray-300 text-8xl font-poppins  font-bold custom-line-height '>Podcast</h1>
+        </div>
         <div className=''>
           <Header />
           <Signup></Signup>

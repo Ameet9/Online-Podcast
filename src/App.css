@@ -40,6 +40,37 @@ body {
   top: 70%;
   width: 40%;
 }
+.lineImg {
+  position: absolute;
+  z-index: -3;
+  right: 0;
+  top: 200%;
+  width: 100%;
+}
+.lineImg2 {
+  position: absolute;
+  z-index: -3;
+  right: 0;
+  top: 197%;
+  width: 100%;
+}
+.lineImg3 {
+  position: absolute;
+  z-index: -3;
+  right: 0;
+  top: 203%;
+  width: 100%;
+}
+.podcastText {
+  position: absolute;
+  z-index: -3;
+  right: 0;
+  top: 180%;
+  width: 40%;
+}
+.podcastText h1 {
+  font-size: 10rem;
+}
 .imageone {
   border-radius: 10px;
   background: url("/src/components/everyone-is-smiling.png"),
