@@ -6,6 +6,8 @@ import poly from "./assets/Polygon 1.png";
 import About from './components/About';
 import mic from "./assets/pngwing 1.png";
 import Pricing from './components/Pricing';
+import Review from './components/Review';
+import Footer from './components/Footer';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,18 +26,21 @@ function App() {
             alt="Image 1"
           />
         </div>
-        <div >
+        <div>
+          <img
+            className="micImg"
+            src={mic}
+            alt="Image 1"
+          />
+        </div>
+        <div className=''>
           <Header />
           <Signup></Signup>
-          <div>
-            <img
-              className="micImg"
-              src={mic}
-              alt="Image 1"
-            />
-          </div>
           <About></About>
           <Pricing></Pricing>
+          <Review></Review>
+          <Footer></Footer>
+
         </div>
       </div>
     </>

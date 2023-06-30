@@ -28,6 +28,11 @@ body {
   top: -10%;
   transform: rotate(2deg);
 }
+.triangle2 {
+  position: absolute;
+  z-index: -3;
+  width: 120%;
+}
 .micImg {
   position: absolute;
   z-index: -3;
@@ -70,9 +75,21 @@ body {
   height: 700px;
 }
 .aboutPage {
-  height: 500px;
 }
 .radio-input {
   position: absolute;
   opacity: 0;
+}
+.footer {
+  bottom: 0px;
+}
+/* html,
+body {
+  height: 100%;
+} */
+.footerDiv {
+  width: 60%;
+  margin: auto;
+}
+.reviewCarousel {
 }
