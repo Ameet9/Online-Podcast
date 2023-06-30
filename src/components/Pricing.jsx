@@ -40,7 +40,7 @@ export default function Pricing() {
                                             onChange={handleOptionChange}
                                             className="h-4 w-4 text-blue-500 radio-input"
                                         />
-                                        <span className="ml-2 text-black text-center text-14 font-normal font-poppins">Monthly</span>
+                                        <span className=" text-black text-center text-14 font-poppins font-bold">Monthly</span>
                                     </label>
                                 </div>
                                 <div className={`rounded p-4 w-24 focus:outline-none transition-all duration-500 ${selectedOption === 'yearly' ? 'bg-green-500 ' : 'bg-gray-500'}`}>
@@ -53,7 +53,7 @@ export default function Pricing() {
                                             onChange={handleOptionChange}
                                             className="h-4 w-4 text-blue-500 radio-input"
                                         />
-                                        <span className="ml-2 text-black text-center text-14 font-normal font-poppins">Yearly</span>
+                                        <span className=" text-black text-center text-14  font-poppins font-bold">Yearly</span>
                                     </label>
                                 </div>
                             </div>
