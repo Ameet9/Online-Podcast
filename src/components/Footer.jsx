@@ -9,7 +9,7 @@ export default function Footer() {
     return (
         <>
             <div className="flex flex-col items-center justify-center">
-                <footer className="py-4 text-white text-center">
+                <footer className="py-4 text-white text-center sticky footerContent">
                     <div className='grid grid-rows-5 gap-2 justify-center text-center footerDiv'>
                         <h1 className='text-4xl font-bold font-inter text-black'>We have what you’re looking for</h1>
                         <p className='text-center text-12 font-normal font-poppins text-purple-500'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type a</p>
@@ -35,7 +35,7 @@ export default function Footer() {
                                         <h3>Product</h3>
                                     </div>
                                 </div>
-                                <div className='flex items-center gap-4 px-8 p-auto'>
+                                <div className='flex items-center gap-2 px-2 md:gap-4 md:px-8'>
                                     <div className='flex-1 text-white'>
                                         <img
                                             className=" inset-0  object-cover rounded-lg"
@@ -70,7 +70,7 @@ export default function Footer() {
                     </div>
                 </footer>
                 <img
-                    className="triangle2"
+                    className="triangle2 sticky"
                     src={polyfooter}
                     alt="Image 2"
                 />
